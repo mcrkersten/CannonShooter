@@ -22,21 +22,17 @@ public class Controller : MonoBehaviour
         #endregion
 
         #region XRotation
-        if (cannon.transform.eulerAngles.z >= maxAngle.x)
-        {
+        if (cannon.transform.eulerAngles.z >= maxAngle.x) {
             rotationC += (Input.GetAxis("Mouse Y") * moveSpeedX);
         }
-        else
-        {
+        else {
             rotationC = maxAngle.x;
         }
 
-        if (cannon.transform.eulerAngles.z <= maxAngle.y)
-        {
+        if (cannon.transform.eulerAngles.z <= maxAngle.y) {
             rotationC += (Input.GetAxis("Mouse Y") * moveSpeedX);
         }
-        else
-        {
+        else {
             rotationC = maxAngle.y;
         }
         cannon.transform.localEulerAngles = new Vector3(0, 0, rotationC);
