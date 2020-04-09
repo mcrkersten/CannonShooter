@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3859830634420638074}
   m_Layer: 0
-  m_Name: LegBase_1
+  m_Name: FrontLeftBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -215,7 +215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3859830634535476665}
   m_Layer: 0
-  m_Name: LegBase_1 (1)
+  m_Name: FrontRightBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,7 +234,7 @@ Transform:
   m_Children:
   - {fileID: 3859830635661794769}
   m_Father: {fileID: 3859830636340469032}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 150, z: 0}
 --- !u!1 &3859830634583502208
 GameObject:
@@ -496,7 +496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3859830634841049431}
   m_Layer: 0
-  m_Name: LegBase_2
+  m_Name: BackLeftBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -515,7 +515,7 @@ Transform:
   m_Children:
   - {fileID: 3859830635626486382}
   m_Father: {fileID: 3859830636340469032}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -30, z: 0}
 --- !u!1 &3859830634873936342
 GameObject:
@@ -701,7 +701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3859830635302623295}
   m_Layer: 0
-  m_Name: LegBase_2 (1)
+  m_Name: BackRightBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1756,8 +1756,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3859830634420638074}
-  - {fileID: 3859830634841049431}
   - {fileID: 3859830634535476665}
+  - {fileID: 3859830634841049431}
   - {fileID: 3859830635302623295}
   m_Father: {fileID: 0}
   m_RootOrder: 0
